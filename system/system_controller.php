@@ -1,6 +1,6 @@
 <?php
 class system_controller {
-        public $view_data = array();
+    public $view_data = array();
 	public function make_view($view_name){
 		$view_data = $this->view_data;
                 include("./views/system_view/header.php");

@@ -1,5 +1,5 @@
 <?php
 
-class main_model{
-
+class main_model extends system_model{
+	
 }

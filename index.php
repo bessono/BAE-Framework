@@ -1,5 +1,7 @@
 <?php
+include("./system/config.php");
 include("./system/system_controller.php");
+include("./system/system_model.php");
 include("./system/bae_html_lib.php");
 //router
 if(!isset($_GET['mode'])) { $_GET['mode'] = "main";}
